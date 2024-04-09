@@ -14,7 +14,7 @@ The project utilizes weather data provided in separate text files organized with
 - Created a unified Pandas DataFrame by combining data from all locations and adding a (location) column to identify the source location of each record.
 
 ### 2. Data Preprocessing
-
+- Dropped Unnecessary columns that were not relevant to the report and analysis
 - Created a separate column for time zones(PKT, GST , PKST).
 - Handled missing values by imputing mean values and removed rows with significant null values to ensure data quality.
 
